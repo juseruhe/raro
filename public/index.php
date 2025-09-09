@@ -13,7 +13,7 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 //require __DIR__.'/../vendor/autoload.php';
 
 // hola
-require __DIR__.'/vendor/autoload.php';
+require '/home/site/wwwroot/public/vendor/autoload.php';
 $app = require_once __DIR__.'/bootstrap/app.php';
 
 // Bootstrap Laravel and handle the request...
